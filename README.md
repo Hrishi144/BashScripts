@@ -21,8 +21,6 @@ A Bash script that:
 - Shows the total number of files
 - Adds cool terminal visuals (colors + animations)
 
-📌 Script location: `code/Bash/Directory_File_Counter/count_files.sh`
-
 ---
 
 ## 🚧 Coming Soon
@@ -40,10 +38,3 @@ Stay tuned! More automation magic on the way 💻✨
 
 **Hrishikesh D.**  
 Powered by curiosity and the terminal ⚡
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
