@@ -22,7 +22,7 @@ sleep 0.7
 
  if [ -z "$1" ]; then
     echo -e "${yellow}This script uses command line arguments!!${NC}"
-    echo -e "${yellow}Please enter a loaction${NC}"
+    echo -e "${yellow}Please enter a location${NC}"
     echo -e "${yellow}How to use ->./file_name.sh  /DIR/location${NC}"
     echo -e "${red}PLEASE RE-RUN WITH ARGUEMENTS!!${NC}"
     exit 1
