@@ -33,7 +33,7 @@ path="$1"
 sleep 1
 
 if [ ! -d "$path" ]; then
-   echo " ERROR 404 Directory Not Found!! "
+    echo -e " ${red}ERROR 404 ${NC} ${green}Directory Not Found!!${NC} "
    exit 1
 fi
 
