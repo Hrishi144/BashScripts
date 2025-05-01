@@ -4,15 +4,16 @@ echo
 green='\033[0;32m'
 NC='\033[0m'
 red='\033[1;91m'
+yellow='\033[0;33m'
 echo -e "${red}DESCRIPTION:${NC}"
 echo -e "${green}--------------------------------------${NC}"
-echo -e "${green}File Lister and Counter Script${NC}" ; 
+echo -e "${green}File Lister and Counter Script${NC}" ;
 sleep 0.5
 echo -e "${green}This script lists and counts all files in a given directory.${NC}" ;
 sleep 0.5
-echo -e "${green}It accepts a directory path as a command-line argument.${NC}" ; 
+echo -e "${green}It accepts a directory path as a command-line argument.${NC}" ;
 sleep 0.5
-echo -e "${green}It prints each file's full path and the total number of files.${NC}" ; 
+echo -e "${green}It prints each file's full path and the total number of files.${NC}" ;
 sleep 0.5
 echo -e "${green}Author: [Hrishikesh.D]${NC}" ;
  sleep 0.5
@@ -20,9 +21,10 @@ echo -e "${green}--------------------------------------${NC}"
 sleep 0.7
 
  if [ -z "$1" ]; then
-    echo "This script uses command line arguments!!"
-    echo "Please enter a loaction"
-    echo  "How to use ->./file_name.sh  /DIR/location"
+    echo -e "${yellow}This script uses command line arguments!!${NC}"
+    echo -e "${yellow}Please enter a loaction${NC}"
+    echo -e "${yellow}How to use ->./file_name.sh  /DIR/location${NC}"
+    echo -e "${red}PLEASE RE-RUN WITH ARGUEMENTS!!${NC}"
     exit 1
  fi
 
@@ -53,9 +55,3 @@ for((i=0;i<50;i++)) do
 done
 echo
 echo "NUMBER OF FILES IN DIRECTORY:-> $path:$NO_File"
-
-
-
-
-
-
