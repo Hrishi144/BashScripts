@@ -1,10 +1,40 @@
-# 📝 File Renamer Script
+# 🚀 Bashscripts Collection
 
-A simple and powerful Bash script that **renames all files** in a specified directory based on a pattern you provide — perfect for organizing or standardizing filenames.
+Welcome to the **Bashscripts** repository — a curated collection of Bash scripts for automating tasks, managing files, and boosting your Linux terminal workflow.
 
 ---
 
-## 🚀 Features
+## 📚 Table of Contents
 
-- Takes a directory path, a base name, and a file extension as input
-- Renames all files in the directory to follow this pattern:
+| Script Name                         | Description                                           |
+|------------------------------------|-------------------------------------------------------|
+| [Directory File Counter](#-directory-file-counter)     | Counts and lists all files in a specified directory   |
+| [Coming Soon 🚧](#-coming-soon)                   | Placeholder for upcoming scripts                      |
+
+---
+
+## 📁 Directory File Counter
+
+A Bash script that:
+- Accepts a directory path as an argument
+- Lists all file paths inside it
+- Shows the total number of files
+- Adds cool terminal visuals (colors + animations)
+
+---
+
+## 🚧 Coming Soon
+
+- File Renamer Script (renames files in a directory)
+- Backup Automation Script
+- System Resource Monitor
+- Cron-based Scheduled Tasks
+
+Stay tuned! More automation magic on the way 💻✨
+
+---
+
+## 🧑‍💻 Author
+
+**Hrishikesh D.**  
+Powered by curiosity and the terminal ⚡
